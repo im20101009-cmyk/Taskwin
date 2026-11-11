@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #171329;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #211a3a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #b99aff;
+}
+
+.balance {
+    background: #332650;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+
+.balance span {
+    color: #ffd66b;
+}
+
+main {
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 750px;
+    margin: 35px auto;
+}
+
+.game {
+    background: #282044;
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #49366f;
+}
+
+.game h3 {
+    color: #c3a7ff;
+}
+
+button {
+    background: #8956e8;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a47af2;
+}
+
+@media (max-width: 500px) {
+    .games {
+        grid-template-columns: 1fr;
+    }
+}
+
+.rewards {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #211a3a;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.reward-card {
+    background: #332650;
+    padding: 25px;
+    border-radius: 16px;
+    margin: 20px 0;
+}
+
+.reward-card h1 {
+    color: #ffd66b;
+    font-size: 38px;
+}
+
+.reward-info {
+    line-height: 2;
+    color: #d5c8f5;
+}
+
+.rewards button {
+    margin-top: 15px;
+}
+.profile {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #211a3a;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.profile-card {
+    background: #332650;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.profile input {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.profile-info {
+    margin-top: 20px;
+    line-height: 2;
+}
